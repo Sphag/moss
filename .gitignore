@@ -1,0 +1,67 @@
+# Build directories
+build-vs2026/
+build-vs2022/
+build-windows-clang/
+build-linux
+
+# Exclude binary external dependencies
+!external/dxc
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Visual Studio
+.vs/
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.db
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+
+# Compiled shaders
+*.spv
+*.cso
+*.fxc
+
+# Object files
+*.o
+*.obj
+*.ko
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
